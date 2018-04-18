@@ -1,0 +1,113 @@
+/* nav bar */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+  padding: 0;
+  font-weight: 700;
+}
+
+a:link, a:visited {
+  color: #0e2f5e;
+  text-decoration: none;
+}
+
+.flex-container > div {
+  background-color: #f7f7f7;
+  color: #0e2f5e;
+  min-width: 20%;
+  max-height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+}
+
+.flex-container > div a {
+  display: block;
+}
+
+.flex-container > div a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.flex-container > div:hover {
+  background-color: #cb0226;
+  color: white;
+}
+/* nav bar end*/
+
+/* three colomns */
+section{
+  margin-left: 0;
+  margin-right: 0;
+}
+#communityTitle{
+  font-size: 30px;
+  color:#022960;
+  letter-spacing: 1px;
+}
+
+.community{
+  width:95%;
+  margin: auto;
+}
+
+#left-col{
+  padding-left: 0;
+}
+#right-col{
+  padding-right: 0;
+}
+#second-col {
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+}
+
+#col1-text, #col2-text, #col3-text, .div-button{
+  background-color: #f4f5f7;
+}
+
+.container.community{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.community_post-title{
+  margin:0 20px 10px 20px;
+  padding-top: 10px;
+  font-size: 20px;
+  color: #022960;
+  letter-spacing: 1px;
+}
+
+.community_post-details{
+  line-height: 2;
+  margin: 10px 20px 10px 20px;
+  opacity: 0.6;
+}
+/* end of three colomns */
+/* button */
+.div-button{
+  padding:10px 20px 10px 20px;
+}
+.span-button{
+  border: 1px solid #bcbcbc;
+  padding:10px 24px 10px 24px;
+}
+.button{
+  color: #bcbcbc;
+  font-size: 14px;
+  padding: 0;
+  opacity: 0.5;
+}
+
+.span-button:hover{
+  border-width: 3px;
+  cursor: pointer;
+}
+.button:hover{
+  text-decoration: none;
+  color:#bcbcbc;
+}
+/* end of button */
