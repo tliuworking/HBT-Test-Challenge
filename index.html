@@ -7,32 +7,34 @@
     <title>Test Challenge</title>
     <link rel="stylesheet" href="css/index.css">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
   <body>
     <!-- nav bar -->
-    <div class="flex-container">
-      <div class="">
-        <a href="accreditedPainter.html">FIND AN ACCREDITED PAINTER</a>
-      </div>
-      <div class="">
-        <a href="whyAccredited.html">WHY ACCREDITED?</a>
-      </div>
-      <div class="">
-        <a href="community.html">COMMUNITY</a>
-      </div>
-      <div class="">
-        <a href="contact.html">CONTACT</a>
-      </div>
-      <div class="">
-        <a href="login.html">LOGIN</a>
-      </div>
-    </div><br><br><br>
+    <nav class="navbar nav-inverse">
+        <div class="container-fluid my-Contain" >
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+          </div>
+          <div class="navbar-collapse collapse" id="mainNavBar">
+              <ul class="nav navbar-nav">
+                  <li><a>FIND AN ACCREDITED PAINTER</a></li>
+                  <li><a>WHY ACCREDITED?</a></li>
+                  <li><a>COMMUNITY</a></li>
+                  <li><a>CONTACT</a></li>
+                  <li><a>LOGIN</a></li>
+              </ul>
+          </div>
+        </div>
+    </nav><br>
     <!-- Main content -->
-    <section class="community">
-    <p id="communityTitle">Community</p><br>
+    <section class="all-community">
+    <h1 id="communityTitle">Community</h1><br>
     <div class="container community">
-      <div class="row">
         <!-- first Colomn -->
         <div id= "left-col" class="col-lg-4 col-md-4 col-sm-4">
           <div class="imgDiv">
@@ -41,21 +43,20 @@
           <div id="col1-text" class="text-justify">
             <p class="community_post-title">This is a post</p>
             <p class="community_post-details">Descriptions and details and details and details
-              and details and details and details and details and details and details
-              and details and detailsand details.</p>
-            <div class="div-button"><span class="span-button"><a class="button">Read More</a></span></div>
+              and details and details and details and details and detailsand detailsand detailsand details.</p>
+            <div class="col-btn"><span class="col-btn_btn"><a class="button">Read More</a></span></div>
           </div>
         </div>
         <!-- second Colomn -->
-        <div id="second-col" class="col-lg-4 col-md-4 col-sm-4">
+        <div id="middle-col" class="col-lg-4 col-md-4 col-sm-4">
           <div class="imgDiv">
             <img class= "img-responsive" src="./images/no_img.png" alt="">
           </div>
           <div id="col2-text" class="text-justify">
             <p class="community_post-title">This is a post</p>
-            <p class="community_post-details">Descriptions and details and details and details and details and details and details
-            and details and details and details and details and detailsand details.</p>
-            <div class="div-button"><span class="span-button"><a class="button">Read More</a></span></div>
+            <p class="community_post-details">Descriptions and details and details and details
+            anddetails and details and details and details and detailsand detailsand detailsand details.</p>
+            <div class="col-btn"><span class="col-btn_btn"><a class="button">Read More</a></span></div>
           </div>
         </div>
         <!-- third Colomn -->
@@ -65,13 +66,14 @@
           </div>
           <div id="col3-text" class="text-justify">
             <p class="community_post-title">This is a post</p>
-            <p class="community_post-details">Descriptions and details and details and details and details and details and details
-            and details and details and details and details and details details.</p>
-            <div class="div-button"><span class="span-button"><a class="button">Read More</a></span></div>
+            <p class="community_post-details">Descriptions and details and details and details
+            and details and details and details and details and details detailsand detailsand details.</p>
+            <div class="col-btn"><span class="col-btn_btn"><a class="button">Read More</a></span></div>
         </div>
-      </div>
     </div>
+  </div>
   </section>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
